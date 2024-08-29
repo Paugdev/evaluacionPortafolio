@@ -1,3 +1,11 @@
+function cambia_imagen(element) {
+    element.src = "../assets/img/ilustra.jpg"; // Cambia la imagen al pasar el cursor
+}
+
+function regresa_imagen(element) {
+    element.src = "../assets/img/pauimg.jpg"; // Vuelve a la imagen original al retirar el cursor
+}
+
 
 function asignarEventos(){
     let elBotonForm = document.getElementById("btnForm");
