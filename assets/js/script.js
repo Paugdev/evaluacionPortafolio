@@ -1,3 +1,10 @@
+function cambia_imagen(element) {
+    element.src = "../assets/img/ilustra.jpg"; 
+}
+
+function regresa_imagen(element) {
+    element.src = "../assets/img/pauimg.jpg";
+}
 
 function asignarEventos(){
     let elBotonForm = document.getElementById("btnForm");
