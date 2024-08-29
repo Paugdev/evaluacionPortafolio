@@ -1,17 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-    <h1 id="tituloEspecial">Mi portafolio.</h1>
-    <button onclick="CambiarColorTitulo()"> Cambiar Título </button>
+<html>
+	<head>
+		<title>Portafolio 2024</title>
+		<link rel="stylesheet" href="./assets/css/styles.css">
+		<link rel="stylesheet" href="./assets/css/css_bs/bootstrap.css">
+	</head>
+	<body onload="asignarEventos()">
+
+		<header class="col-xs-12">
+			<h1 id="tituloEspecial">Paulina González</h1>
+            <h3>Full Stack Web Developer</h3>
+		</header>
+
+		<main class="container">
+            <div class="container-avatar"></div>
+            <img class="avatar" src="./assets/img/pauimg.jpg" alt="avatar">
+			<div class="row">
+                
+				<article id="article" class="col-xs-12 col-md-8 ">
+					<p id="parrafoPresentacion">Apasionada por la tecnología con enfoque al desarrollo web, diseño e innovación. Productiva, trabajadora, alto compromiso con la organización y excelentes relaciones interpersonales con probadas habilidades para el trabajo en equipo y trabajar bajo presión.  </p>
+                    <h1>Estudios</h1>
+                    <p>Bootcamp Frontend 
+                        2023-2024 <br>
+                        Laboratoria
+                    </p> <br>
+                    <p> Full Stack Python
+                        2024 <br>
+                        Coding Dojo
+                    </p>
+					<button class="btn btn-primary" onclick="cambiarColorTitulo()"> Cambiar titulo</button>
+				</article>
+				<aside  id="lateral"class="col-xs-12 col-md-4">
+					<p>Tecnologías que conozco</p>
+						<ul>
+							<li> Javascript</li>
+							<li> Python</li>
+							<li> HTML</li>
+                            <li>CSS</li>
+                            <li>Boostrap</li>
+                            <li>SQL</li>
+						</ul>
+						<div id="divEspecial">
+							<p>Idiomas</p>
+                            <ul>
+                                <li>Español Nativo</li>
+                                <li>Ingles Intermedio</li>
+                            </ul>
+
+
+						</div>
+
+						<div id="contenedorForm">
+									<form>
+									<div class="formulario">
+                                        <p>Contáctame</p>
+										<label for="emailContacto" class="form-label">Email:</label>
+										<input type="email" class="form-control" id="emailContacto" aria-describedby="emailHelp">
+										<div id="emailHelp" class="form-text">No compartiremos su email con nadie.</div>
+									</div>
+									<div class="formulario">
+										<label for="telefonoContacto" class="form-label">Teléfono:</label>
+										<input type="number" class="form-control" id="telefonoContacto">
+									</div>
+
+									<button id="btnForm" type="button" class="btn btn-success">Enviar</button>
+									</form>
+						</div>
+				</aside>
+			</div>
+		</main>
+
+ 
 
 
 
-    <script src="./assets/js/script.js"></script>
-</body>
+		
+		<footer class="col-xs-12 bg-danger">
+			<small>Desarrollado por : Elfar Morantes--</small>
+		</footer>
+		<script src="./assets/js/script.js"></script>
+		<script src="./assets/js/js_bs/bootstrap.bundle.js"></script>
+	</body>
 </html>
