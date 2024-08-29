@@ -3,8 +3,9 @@ function cambia_imagen(element) {
 }
 
 function regresa_imagen(element) {
-    element.src = "../assets/img/pauimg.jpg";
+    element.src = "../assets/img/pauimg.jpg"; 
 }
+
 
 function asignarEventos(){
     let elBotonForm = document.getElementById("btnForm");
