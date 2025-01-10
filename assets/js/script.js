@@ -1,5 +1,5 @@
 function cambia_imagen(element) {
-    element.src = "../assets/img/ilustra.jpg"; 
+    element.src = "..\assets\img\ilustra.jpg"; 
 }
 
 function regresa_imagen(element) {
