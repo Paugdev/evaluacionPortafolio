@@ -1,9 +1,9 @@
 function cambia_imagen(element) {
-    element.src = "..\assets\img\ilustra.jpg"; 
+    element.src = "../img/ilustra.jpg";
 }
 
 function regresa_imagen(element) {
-    element.src = "..\assets\img\pauimg.jpg"; 
+    element.src = "../img/pauimg.jpg"; 
 }
 
 
